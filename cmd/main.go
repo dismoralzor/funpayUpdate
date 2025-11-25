@@ -33,6 +33,6 @@ func main() {
 		SeleniumTebeka.FunpayUpdate(args.Username, args.Password)
 		time.Sleep(15480 * time.Second)
 		today := time.Now()
-		fmt.Printf("Update %s", today)
+		fmt.Printf("Update! %s", today)
 	}
 }
