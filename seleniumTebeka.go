@@ -15,7 +15,7 @@ func FunpayUpdate(username string, password string) {
 
 	const (
 		chromeDriverPath = "./cmd/chromedriver"
-		port             = 8070
+		port             = 8080
 	)
 	opts := []selenium.ServiceOption{
 		selenium.ChromeDriver(chromeDriverPath),
