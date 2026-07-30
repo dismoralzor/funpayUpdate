@@ -1,1 +1,33 @@
-.vscode
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# WebDriver binaries
+chromedriver
+geckodriver
+
+# Test / coverage
+*.test
+*.out
+coverage.*
+
+# Runtime output
+Screenshot.jpg
+*.log
+
+# Local secrets
+.env
